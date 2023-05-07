@@ -1,4 +1,5 @@
 // Method overloading : -> Method overloading is when two or more methods 
+// Compile-time polymorphism
  // in a class have the same name but different parameters
  class Calculator {
     public int add(int x, int y) {
