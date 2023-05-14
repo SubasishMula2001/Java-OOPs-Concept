@@ -1,6 +1,6 @@
 // Method Overriding : -> Method overriding is when a subclass provides a specific 
 // implementation of a method that is already provided by its parent class
-
+//Runtime polymorphism
 public class Animal {
     public void makeSound() {
         System.out.println("The animal makes a sound");
