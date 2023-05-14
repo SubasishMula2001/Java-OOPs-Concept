@@ -1,3 +1,4 @@
+// Polymorphism means "many forms" and it refers to the ability of an object to take on many forms or to have multiple behaviors.
 // Method overloading : -> Method overloading is when two or more methods 
 // Compile-time polymorphism
  // in a class have the same name but different parameters
