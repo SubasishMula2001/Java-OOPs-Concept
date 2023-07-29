@@ -3,6 +3,8 @@
 // Method overloading : -> Method overloading is when two or more methods 
 // Compile-time polymorphism
  // in a class have the same name but different parameters
+ // This is the ability of an object to take on many forms.
+  // In Java, polymorphism is achieved by using method overloading and method overriding
  class Calculator {
     public int add(int x, int y) {
         return x + y;
