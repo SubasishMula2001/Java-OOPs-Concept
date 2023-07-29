@@ -1,6 +1,9 @@
 // This is the process of hiding the implementation details and exposing only the necessary information to the user. 
 //  In Java, abstraction is achieved by using abstract classes and interfaces.
 // using abstract keyword
+// Cannot create an instance of abs class
+// abstract or non-abstract methods
+// can have constructors
 abstract class Animal { // object cannot be created 
     abstract void walk();
  Animal () {
