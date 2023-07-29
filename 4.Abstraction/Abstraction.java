@@ -1,4 +1,5 @@
- // Abstraction is the process of hiding the implementation details and exposing only the necessary information to the user
+// This is the process of hiding the implementation details and exposing only the necessary information to the user. 
+//  In Java, abstraction is achieved by using abstract classes and interfaces.
 // using abstract keyword
 abstract class Animal { // object cannot be created 
     abstract void walk();
