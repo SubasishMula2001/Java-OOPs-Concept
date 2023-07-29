@@ -1,5 +1,5 @@
  // Inheritance is mechanism in which a class aquire the property and behaviour of its parent class
- 
+  // In Java, inheritance is achieved by using the extends keyword.
  class Animal {
     public void eat() {
         System.out.println("Animal is eatingi");
