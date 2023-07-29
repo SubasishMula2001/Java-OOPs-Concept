@@ -25,6 +25,12 @@ public class Employee {
      System.out.println(obj.getName());
     }
 }
+// In this code, the class "Employee" has two private member variables "emp_id" and "emp_name". These variables are
+// made private so that they cannot be accessed directly from outside the class. Instead, public methods "setEmpId", "getEmpId",
+// "setName", and "getName" are provided to set and get the values of these variables.
 
-//In this example, the emp_id and emp_name variables are encapsulated as private
-//and can be accessed only through the public getter and setter methods.
+// This way, the internal details of the Employee object (i.e. emp_id and emp_name) are hidden from the outside world, 
+// and can only be accessed through the publicmethods provided by the class. This is the concept of encapsulation.
+
+// In the main method, an object of the Employee class is created, and its member variables are set using the public methods.
+// Finally, the values of the member variables are printed using the getter methods.
