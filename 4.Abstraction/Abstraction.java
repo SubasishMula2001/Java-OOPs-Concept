@@ -1,3 +1,4 @@
+ // Abstraction is the process of hiding the implementation details and exposing only the necessary information to the user
 // using abstract keyword
 abstract class Animal { // object cannot be created 
     abstract void walk();
