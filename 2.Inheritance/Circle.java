@@ -1,6 +1,10 @@
- // Inheritance is mechanism in which a class aquire the property 
- //and behaviour of its parent class
+Inheritance:It is mechanism in which a class aquire the property and behaviour of its parent class..
  // reusabality 
+1.Single Inheritance
+2.Multilevel Inheritance
+3.Hierarchical Inheritance
+4.Multiple Inheritance
+5.Hybrid Inheritance
  //  I.Single Inheritance : Single Inheritance occurs when a class inherits from only one superclass.
   class Animal {
     void eat() {
