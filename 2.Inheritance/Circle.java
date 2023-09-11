@@ -1,7 +1,11 @@
  // Inheritance is mechanism in which a class aquire the property 
  //and behaviour of its parent class
  // reusabality 
- 
+ // I.Single Inheritance
+ //  II.Multilevel Inheritance
+ //  III.Hierarchical Inheritance
+ //  IV.Multiple Inheritance
+ //  V.Hybrid Inheritance
 class Shape {
    public void area() {
        System.out.println("display area");
