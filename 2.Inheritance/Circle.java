@@ -1,31 +1,111 @@
  // Inheritance is mechanism in which a class aquire the property 
  //and behaviour of its parent class
  // reusabality 
- // I.Single Inheritance
- //  II.Multilevel Inheritance
- //  III.Hierarchical Inheritance
- //  IV.Multiple Inheritance
- //  V.Hybrid Inheritance
-class Shape {
-   public void area() {
-       System.out.println("display area");
-   }
-}
-
-class Triangle extends Shape {
-    public void area(int l, int h ) {
-        System.out.println(1/2*l*h);
+ //  I.Single Inheritance : Single Inheritance occurs when a class inherits from only one superclass.
+  class Animal {
+    void eat() {
+        System.out.println("Animal is eating");
     }
 }
 
-class Circle extends Shape {
-    public void area(int r) {
-        System.out.println((3.14)*r*r);
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog is barking");
     }
 }
 
-// class EquilateralTriangle extends Triangle {
-//     public void area(int l, int h) {
-//         System.out.println(1/2*l*h);
-//     }
-// }
+ //  II.Multilevel Inheritance :  when a class inherits from a superclass, and then another class inherits from
+  // this derived class.
+  class Grandparent {
+    void grandparentMethod() {
+        System.out.println("Grandparent's method");
+    }
+}
+
+class Parent extends Grandparent {
+    void parentMethod() {
+        System.out.println("Parent's method");
+    }
+}
+
+class Child extends Parent {
+    void childMethod() {
+        System.out.println("Child's method");
+    }
+}
+
+ //  III.Hierarchical Inheritance : Hierarchical Inheritance occurs when multiple classes inherit from a single superclass.
+ class Vehicle {
+    void start() {
+        System.out.println("Vehicle is starting");
+    }
+}
+
+class Car extends Vehicle {
+    void drive() {
+        System.out.println("Car is driving");
+    }
+}
+
+class Bicycle extends Vehicle {
+    void pedal() {
+        System.out.println("Bicycle is pedaling");
+    }
+}
+
+ //  IV.Multiple Inheritance : Java does not support multiple inheritance of classes, meaning a class cannot 
+ //inherit from more than one class. However, it can implement multiple interfaces.
+ interface Swimmer {
+    void swim();
+}
+
+interface Flyer {
+    void fly();
+}
+
+class Bird implements Swimmer, Flyer {
+    public void swim() {
+        System.out.println("Bird is swimming");
+    }
+
+    public void fly() {
+        System.out.println("Bird is flying");
+    }
+}
+
+ //  V.Hybrid Inheritance : It is a mix of two or more of the above types of inheritance. 
+ //Since Java doesn’t support multiple inheritances with classes, hybrid inheritance is also not possible
+// with classes. In Java, we can achieve hybrid inheritance only through Interfaces.
+ class A {
+    void methodA() {
+        System.out.println("Class A method");
+    }
+}
+
+class B extends A {
+    void methodB() {
+        System.out.println("Class B method");
+    }
+}
+
+class C extends B {
+    void methodC() {
+        System.out.println("Class C method");
+    }
+}
+
+interface X {
+    void methodX();
+}
+
+class D extends C implements X {
+    void methodD() {
+        System.out.println("Class D method");
+    }
+
+    public void methodX() {
+        System.out.println("Interface X method");
+    }
+}
+//Why multiple inheritance is not supported in java?
+//To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
