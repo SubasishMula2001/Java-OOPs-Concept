@@ -78,6 +78,7 @@ class Bird implements Swimmer, Flyer {
 }
 
  //  V.Hybrid Inheritance : It is a mix of two or more of the above types of inheritance. 
+//the hybrid inheritance is the composition of two or more types of inheritance
  //Since Java doesn’t support multiple inheritances with classes, hybrid inheritance is also not possible
 // with classes. In Java, we can achieve hybrid inheritance only through Interfaces.
  class A {
