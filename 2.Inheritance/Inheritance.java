@@ -1,4 +1,5 @@
-Inheritance:It is mechanism in which a class aquire the property and behaviour of its parent class..
+// Inheritance is mechanism in which a class aquire the property and behaviour of its parent class
+  // In Java, inheritance is achieved by using the extends keyword.
  // reusabality 
 1.Single Inheritance
 2.Multilevel Inheritance
@@ -114,3 +115,22 @@ class D extends C implements X {
 }
 //Why multiple inheritance is not supported in java?
 //To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
+
+// another example
+
+ class Animal {
+    public void eat() {
+        System.out.println("Animal is eatingi");
+    }
+}
+public class Dog extends Animal {
+    public void bark() {
+        System.out.println("Dog is barking");
+    }
+    public static void main(String args[] ) {
+        Dog obj = new Dog();
+        obj.bark();
+        obj.eat();
+    }
+}
+//In this example, the Dog class extends the Animal class and inherits its eat() method.
