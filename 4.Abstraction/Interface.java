@@ -7,7 +7,7 @@
 // final, public and static
 interface Bank { // by default public static final hota hai
     void sbi(); // abstract and public 
-    void pnb();
+    void pnb(); // declares only
 }
 public class Loan implements Bank{
     public void sbi() {
