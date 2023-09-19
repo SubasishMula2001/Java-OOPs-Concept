@@ -34,3 +34,21 @@ public class Abstraction {
         horse.eats();
     }
 }
+// example 2
+abstract class Bank{
+    abstract void sbi();
+    abstract void pnb();
+}
+public class Loan extends Bank{
+    public void sbi() {
+        System.out.println("SBI loan");
+    }
+    public void pnb() {
+        System.out.println("PNB loan");
+    }
+    public static void main(String []args) {
+        Loan l = new Loan();
+        l.sbi();
+        l.pnb();
+    }
+}
