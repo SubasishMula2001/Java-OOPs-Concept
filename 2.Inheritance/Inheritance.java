@@ -21,6 +21,7 @@ class Dog extends Animal {
 
  //  II.Multilevel Inheritance :  when a class inherits from a superclass, and then another class inherits from
   // this derived class.
+// One class inherits the features from a parent class and the newly created sub-class becomes the base class for another new class.
   class Grandparent {
     void grandparentMethod() {
         System.out.println("Grandparent's method");
