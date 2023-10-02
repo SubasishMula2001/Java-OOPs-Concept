@@ -1,6 +1,8 @@
-Thread : A thread is a path of execution within a process . It is also known as lightweight process. Thread 
-allow multiple task to be preformed concurrently within a single process. Thread within a process share the same 
-memory and same resource.
+   Thread : A thread is a path of execution within a process . It is also known as lightweight process. Thread 
+allow multiple task to be preformed concurrently within a single process. Thread within a process share
+the same memory and same resource.
+  Multi Threading: Multithreading is a Java feature that allows concurrent execution of two or more parts of
+a program for maximum utilization of CPU.
     1. By Extending Thread class.
     2. By implementing Runnable interface.
 // Using thread class
