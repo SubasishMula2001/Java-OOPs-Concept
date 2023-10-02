@@ -61,6 +61,7 @@ class Bicycle extends Vehicle {
 
  //  IV.Multiple Inheritance : Java does not support multiple inheritance of classes, meaning a class cannot 
  //inherit from more than one class. However, it can implement multiple interfaces.
+// where a class can inherit from more than one classes called Mulitple inheritance.
  interface Swimmer {
     void swim();
 }
