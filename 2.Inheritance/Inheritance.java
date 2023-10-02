@@ -115,8 +115,8 @@ class D extends C implements X {
     }
 }
 //Why multiple inheritance is not supported in java?
+// to prevent ambiguity.
 //To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
-
 // another example
 
  class Animal {
