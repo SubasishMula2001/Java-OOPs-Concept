@@ -4,6 +4,7 @@
 // Cannot create an instance of abs class
 // abstract or non-abstract methods
 // can have constructors
+// Absract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
 abstract class Animal { // object cannot be created 
     abstract void walk();
  Animal () {
