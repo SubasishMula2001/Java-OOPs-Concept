@@ -136,3 +136,48 @@ public class Dog extends Animal {
     }
 }
 //In this example, the Dog class extends the Animal class and inherits its eat() method.
+// Diamond Problem:
+//   It refers to a situation where a class inherits from two or more classes that have a common base class. 
+// This can lead to ambiguity in the inheritance hierarchy 
+class A {
+    void display() {
+        System.out.println("A");
+    }
+}
+
+class B extends A {
+    void display() {
+        System.out.println("B");
+    }
+}
+
+class C extends A {
+    void display() {
+        System.out.println("C");
+    }
+}
+
+class D extends B, C {
+}
+// we can use interface to use this
+interface A {
+    void display();
+}
+
+class B implements A {
+    public void display() {
+        System.out.println("B");
+    }
+}
+
+class C implements A {
+    public void display() {
+        System.out.println("C");
+    }
+}
+
+class D implements A {
+    public void display() {
+        System.out.println("D");
+    }
+}
