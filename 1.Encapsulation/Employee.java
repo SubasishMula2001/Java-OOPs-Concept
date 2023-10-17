@@ -7,7 +7,12 @@
 // Coupling refers to the knowledge or information or dependency of another class
 
 // Cohesion
-// Cohesion refers to the level of a component which performs a single well-defined task
+// Cohesion refers to the level of a component which performs a single well-defined task. A single well-defined task is done by a highly
+//  cohesive method. The weakly cohesive method will split the task into separate parts.
+
+// Aggregation
+// Aggregation is a way to achieve Association. Aggregation represents the relationship where one object contains other objects as a part of its state.
+
 
 public class Employee {
     private int emp_id;
@@ -43,3 +48,27 @@ public class Employee {
 
 // In the main method, an object of the Employee class is created, and its member variables are set using the public methods.
 // Finally, the values of the member variables are printed using the getter methods.
+
+
+
+// Advantages of Encapsulation in Java:
+
+// Data Hiding: Encapsulation allows you to hide the internal details and implementation of an object from the outside world. This prevents unauthorized
+//  access and manipulation of an object's state.
+
+// Flexibility and Maintenance: You can change the internal implementation of a class (e.g., modify data structures or algorithms) without affecting the 
+//  classes that use it, as long as you maintain the public interface. This promotes code flexibility and easier maintenance.
+
+// Reusability: Encapsulated classes can be reused in different parts of your program or in other projects because they provide a clear and consistent interface
+//  for interaction.
+
+// Disadvantages of Encapsulation in Java:
+
+// Complexity: Over-encapsulation, where every field is hidden behind getters and setters, can lead to excessive complexity in your code,
+//  making it harder to read and maintain. You should balance encapsulation with the need for simplicity and clarity.
+
+// Potential for Poor Design: Overly restrictive encapsulation can lead to poor design choices, such as creating too many getters and
+//  setters, which can make the code less intuitive and harder to use.
+ 
+// Increased code execution: Encapsulation results in an increase in the duration of the program execution. It is because more instructions 
+//  are added to the code therefore they require more time to execute.
