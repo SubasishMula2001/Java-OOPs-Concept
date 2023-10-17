@@ -40,7 +40,7 @@ class Child extends Parent {
     }
 }
 
- //  III.Hierarchical Inheritance : Hierarchical Inheritance occurs when multiple classes inherit from a single superclass.
+ //  III.Hierarchical Inheritance : Hierarchical Inheritance occurs when two or more classes inherit from a single superclass.
  class Vehicle {
     void start() {
         System.out.println("Vehicle is starting");
