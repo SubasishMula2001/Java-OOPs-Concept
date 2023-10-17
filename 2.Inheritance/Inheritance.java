@@ -181,3 +181,20 @@ class D implements A {
         System.out.println("D");
     }
 }
+
+// Advantages of Inheritance in Java:
+
+// Code Reusability: Inheritance promotes code reuse by allowing you to define a new class based on an existing class.
+//   This reduces code duplication and makes it easier to maintain and extend your codebase.
+  
+// Method Overriding: Inheritance allows you to override methods from the parent class in the child class, providing
+//   specialized implementations. This is a key feature of polymorphism and is used for achieving runtime polymorphism.
+
+// Disadvantages of Inheritance
+// No Independence: One of the main disadvantages of Inheritance in Java is that two classes, both the base and inherited
+//   class, get tightly bounded by each other. In simple terms, Programmers can not use these classes independently of each other.
+
+// Decreases Execution Speed: Another con of Inheritance is that it decreases the execution speed because Inheritance execution
+//   takes time and effort.
+
+// Refactoring the Code: If the user deletes the Super Class, then they have to refactor it if they have used it.
