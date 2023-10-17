@@ -1,5 +1,7 @@
 // Encapsulation : it is the process of hiding the internal details of an object from outside of the world.
  // In Java, encapsulation is achieved by using access modifiers like private, public, and protected.
+
+// Binding (or wrapping) code and data together into a single unit are known as encapsulation
 public class Employee {
     private int emp_id;
     private String emp_name;
