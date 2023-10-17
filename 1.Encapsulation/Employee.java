@@ -2,6 +2,13 @@
  // In Java, encapsulation is achieved by using access modifiers like private, public, and protected.
 
 // Binding (or wrapping) code and data together into a single unit are known as encapsulation
+
+// Coupling
+// Coupling refers to the knowledge or information or dependency of another class
+
+// Cohesion
+// Cohesion refers to the level of a component which performs a single well-defined task
+
 public class Employee {
     private int emp_id;
     private String emp_name;
