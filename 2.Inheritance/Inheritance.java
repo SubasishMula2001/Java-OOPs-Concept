@@ -139,48 +139,39 @@ public class Dog extends Animal {
 // Diamond Problem:
 //   It refers to a situation where a class inherits from two or more classes that have a common base class. 
 // This can lead to ambiguity in the inheritance hierarchy 
-class A {
-    void display() {
-        System.out.println("A");
-    }
-}
-
-class B extends A {
-    void display() {
-        System.out.println("B");
-    }
-}
-
-class C extends A {
-    void display() {
-        System.out.println("C");
-    }
-}
-
-class D extends B, C {
-}
-// we can use interface to use this
-interface A {
-    void display();
-}
-
-class B implements A {
-    public void display() {
-        System.out.println("B");
-    }
-}
-
-class C implements A {
-    public void display() {
-        System.out.println("C");
-    }
-}
-
-class D implements A {
-    public void display() {
-        System.out.println("D");
-    }
-}
+class A  
+{  
+public void display()  
+{  
+System.out.println("class A display() method called");  
+}  
+}  
+class B extends A  
+{  
+@Override  
+public void display()  
+{  
+System.out.println("class B display() method called");  
+}  
+}  
+class C extends A  
+{  
+@Override  
+public void display()  
+{  
+System.out.println("class C display() method called");  
+}  
+}  
+//not supported in Java  
+public class D extends B,C  
+{  
+public static void main(String args[])  
+{  
+D d = new D();  
+//creates ambiguity which display() method to call  
+d.display();   
+}  
+}  //compiler error
 
 // Advantages of Inheritance in Java:
 
